@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voyage Horizon</title>
+    <meta name="description" content="Agence de voyage simple et moderne." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <header class="header">
+      <div class="container nav">
+        <div class="logo">✈ Voyage Horizon</div>
+        <nav>
+          <a href="#accueil">Accueil</a>
+          <a href="#destinations">Destinations</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="accueil">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <span>Votre prochaine aventure</span>
+            <h1>Voyagez loin, vivez fort.</h1>
+            <p>
+              Des séjours bien pensés, des destinations magnifiques et un service simple pour vos vacances de rêve.
+            </p>
+            <div class="buttons">
+              <a class="btn btn-primary" href="#destinations">Découvrir</a>
+              <a class="btn btn-light" href="#contact">Réserver</a>
+            </div>
+          </div>
+
+          <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80" alt="Plage tropicale" />
+          </div>
+        </div>
+      </section>
+
+      <section class="destinations" id="destinations">
+        <div class="container">
+          <h2>Destinations populaires</h2>
+
+          <div class="cards">
+            <article class="card">
+              <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80" alt="Paris" />
+              <div class="card-body">
+                <h3>Paris</h3>
+                <p>Romantisme et culture.</p>
+                <strong>À partir de 399€</strong>
+              </div>
+            </article>
+
+            <article class="card">
+              <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80" alt="Bali" />
+              <div class="card-body">
+                <h3>Bali</h3>
+                <p>Plages et nature.</p>
+                <strong>À partir de 599€</strong>
+              </div>
+            </article>
+
+            <article class="card">
+              <img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=800&q=80" alt="Rome" />
+              <div class="card-body">
+                <h3>Rome</h3>
+                <p>Histoire et gastronomie.</p>
+                <strong>À partir de 449€</strong>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="container footer-inner">
+        <div>
+          <h3>Voyage Horizon</h3>
+          <p>Des vacances simples, belles et bien organisées.</p>
+        </div>
+        <div>
+          <p>📍 15 Rue des Étoiles</p>
+          <p>📞 +33 1 23 45 67 89</p>
+        </div>
+      </div>
+      <div class="container copyright">© <span id="year"></span> Voyage Horizon</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
